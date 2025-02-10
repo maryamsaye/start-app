@@ -70,7 +70,7 @@ ul{
   }
   
   /* Responsive Menu (Hidden by Default on Mobile) */
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .menu-icon {
       display: block; /* Show hamburger icon on mobile */
     }
