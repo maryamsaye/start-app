@@ -1,0 +1,27 @@
+.techman{
+    width: 80%;
+    margin-left: 50px;
+}
+.man{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+.mantext{
+    font-family: "Crimson Text";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #212529;
+
+}
+.mantext2{
+    font-family: "Work Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #21252980;
+
+}

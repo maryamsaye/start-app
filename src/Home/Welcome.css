@@ -1,0 +1,56 @@
+.people{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 514px;
+    background-color: #74c69d;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+
+}
+.welcome{
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.text1{
+    font-family: "Crimson Text ";
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.text2{
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 18.75px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: #FFFFFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 400;
+    border: solid;
+    border-color: #FFFFFF;
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 15px;
+}

@@ -1,0 +1,45 @@
+.head{
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #74C69D;
+    margin-top: 40px;
+    
+
+}
+.body{
+    font-family:"Crimson Text";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    
+
+}
+.lorem{
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    
+}
+.img{
+    width: 100%;
+    height: auto;
+
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 40px; 
+    justify-content: center;
+    padding: 10px;
+    margin-top: 40px;
+}
