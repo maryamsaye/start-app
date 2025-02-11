@@ -14,12 +14,9 @@ function Navbar() {
   return (
     <section className="nav-header">
       <div className="navbar">
-        {/* Logo */}
         <Link to="/" className="logo-container">
           <img src={start} alt="Logo" className="logo" />
         </Link>
-
-        {/* Hamburger Icon */}
         <img
           src={hamburger}
           alt="Menu"
@@ -27,8 +24,6 @@ function Navbar() {
           onClick={toggleMenu}
         />
       </div>
-
-      {/* Navigation Menu */}
       <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
         <ul>
           <li>

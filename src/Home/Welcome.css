@@ -9,6 +9,9 @@
     padding-right: 20px;
     height: 514px;
     background-color: #74c69d;
+    display: flex;
+    flex-direction: row;
+
 }
 .hero{
     display: flex;
@@ -54,3 +57,4 @@ button{
     border-radius: 5px;
     margin-top: 15px;
 }
+
