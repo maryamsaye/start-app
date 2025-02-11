@@ -1,60 +1,157 @@
-.people{
+.people {
+  width: 80%;
+  max-width: 300px; /* Ensures it doesn't get too large on wider screens */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 514px;
+  background-color: #74c69d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centers content horizontally */
+}
+
+/* Mobile-first: Stack items */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items */
+  justify-content: center; /* Center vertically */
+  width: 100%;
+  gap: 20px; /* Space between text and image */
+}
+
+.text {
+  width: 90%;
+  text-align: center; /* Center text */
+}
+
+/* Text Styles */
+.welcome {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #FFFFFF;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.text1 {
+  font-family: "Crimson Text";
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.text2 {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  line-height: 18.75px;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+  background-color: #FFFFFF;
+  font-family: "Work Sans";
+  font-size: 20px;
+  text-align: left; /* Ensures text inside button is aligned left */
+  line-height: 25px;
+  font-weight: 400;
+  border: solid;
+  border-color: #FFFFFF;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: block; /* Ensures button takes up full width if needed */
+  align-self: flex-start; /* Aligns the button to the left of the text */
+}
+
+button:hover {
+  background-color: #E6E6E6;
+}
+
+/* Tablet View (768px and up) */
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row; /* Side by side layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     width: 80%;
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.header{
+    gap: 50px; /* Space between text and image */
+  }
+
+  .text {
+    flex: 1;
+    text-align: left;
     padding-left: 20px;
-    padding-right: 20px;
-    height: 514px;
-    background-color: #74c69d;
-    display: flex;
-    flex-direction: row;
+    order: 1; /* Moves text to the left */
+  }
 
-}
-.hero{
-    display: flex;
-    flex-direction: column;
+  .people {
+    flex: 1;
+    width: 100%;
+    max-width: 400px;
+    order: 2; /* Moves image to the right */
+  }
 
+  /* Button remains under text and aligned to the left */
+  button {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 80px;
+  }
 }
-.welcome{
-    font-family: "Work Sans";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    color: #FFFFFF;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
-}
-.text1{
-    font-family: "Crimson Text ";
-    font-size: 28px;
-    line-height: 35px;
-    font-weight: 700;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
-.text2{
-    font-family: "Work Sans";
-    font-weight: 400;
-    font-size: 15px;
-    color: #FFFFFF;
-    line-height: 18.75px;
-    margin-bottom: 20px;
-}
-button{
-    background-color: #FFFFFF;
-    font-family: "Work Sans";
+
+/* Desktop View (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .header {
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero {
+    width: 70%;
+    gap: 70px; /* More spacing between text and image */
+  }
+
+  .welcome {
     font-size: 20px;
-    text-align: center;
-    line-height: 25px;
-    font-weight: 400;
-    border: solid;
-    border-color: #FFFFFF;
-    width: 170px;
-    height: 48px;
-    border-radius: 5px;
-    margin-top: 15px;
-}
+  }
 
+  .text1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .text2 {
+    font-size: 17px;
+  }
+
+  .people {
+    max-width: 500px;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: left;
+    margin-left: 230px;
+  }
+}
