@@ -93,10 +93,10 @@
     }
     .black{
         margin-left: 290px;
+        margin-bottom: 30px;
     }
 }
 
-/* Desktop View (1024px and up) */
 @media screen and (min-width: 1024px) {
     .part {
         padding: 60px;
@@ -125,7 +125,23 @@
 
 .black{
     
-        margin-left: 42px;
+        margin-left: 432px;
+        margin-bottom: 30px;
     
 }
+}
+
+@media screen and (min-width: 1440px){
+    .icons{
+        width: 60px;
+        height: 40px;
+        margin-left: 250px;
+        
+    }
+
+    .black{
+        margin-left: 620px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
 }

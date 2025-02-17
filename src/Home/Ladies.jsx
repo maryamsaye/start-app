@@ -9,11 +9,14 @@ const Ladies = () => {
         <div>
             <div className="group2">
                 <img src={group2}alt="" className="ladies" />
-                <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt impedit cumque deleniti facilis, reprehenderit eaque! Architecto aut eveniet nulla officia?</p>
+                <div className="ipsum">
+                    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt impedit cumque deleniti facilis, reprehenderit eaque! Architecto aut eveniet nulla officia?</p>
+                    <button className="black2">Learn More</button>
+                </div>
 
         </div>
-            <button className="black2">Learn More</button>
+            
         </div>
     )
 }
