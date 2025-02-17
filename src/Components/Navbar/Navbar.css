@@ -86,10 +86,21 @@
     display: none; 
   }
 
-  .logo-container{
-    margin-left: 70px;
-  }
+
+
+  
 }
+
+@media (min-width: 1440px) {
+  .logo-container{
+    margin-left: 65px;
+  }
+
+  
+}
+
+
+
 
 
 
