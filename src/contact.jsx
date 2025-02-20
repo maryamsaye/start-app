@@ -6,15 +6,15 @@ import Footer from './footer';
 
 const Contact = () => {
 return (
- <div>
+  <div>
     <Nav />
     <main>
-     <Us />
-     <Name />
-     
-   </main>
-   <Footer />
- </div>
+    <Us />
+    <Name />
+    
+  </main>
+  <Footer />
+</div>
 );
 };
 export default Contact;
