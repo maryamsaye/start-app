@@ -1,27 +1,21 @@
-import React from 'react'; 
-import { BrowserRouter,Routes, Route } from 'react-router-dom';
-import Home from './Home/home.jsx'; 
-import Portfolio from "./Portfolio/portfolio.jsx";
-
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './home'; 
+import Portfolio from './Portfolio'; 
+// import Service from './service'; 
+// import Contact from './contact'; 
 
 const App = () => {
   return (
-    <BrowserRouter>
-  
-    <div>
+    <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        {/* <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} /> */}
-        
+        <Route path="/" element={<Home />} /> 
+        <Route path="/Portfolio" element={<Portfolio />} /> 
+        {/* <Route path="/service" element={<Service />} /> 
+        <Route path="/contact" element={< Contact/>} />   */}
       </Routes>
-      </div>
-      </BrowserRouter>
-      
-
-    
-  )
-}
-
+    </Router>
+  );
+};
 export default App;
