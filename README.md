@@ -11,7 +11,6 @@ Welcome to the Startup Website! This project is a modern, responsive web templat
 - [Key Highlights](#Key-highlights)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [License](#license)
 - [Author(s)](#authors)
 ---
@@ -21,7 +20,8 @@ The Startup Website is a professional and customizable web template aimed at sta
 This project utilizes a modular component structure in React, making it scalable and easy to maintain. Users can navigate between pages (e.g., homepage and portfolio) via React Router, ensuring smooth transitions and experience.
 ## Live Demo
 
-Check out the live demo of the project: [Startup Website Demo]( https://fatimaabubakaradam.github.io/startup-website/)
+Check out the live demo of the project: [Startup Website Demo](  https://start-app-u3ud.onrender.com
+)
 ---
 ## Features
 
@@ -47,32 +47,25 @@ Check out the live demo of the project: [Startup Website Demo]( https://fatimaab
 - **Interactive Navigation**: React Router enables users to switch between pages without refreshing the site.
 ## Setup and InstallationTo get started with the Startup Website, follow these steps:
 1. **Clone the Repository:**
-bashgit clone https://github.com/fatimaabubakaradam/startup-website.git
+bashgit clone https://github.com/maryamsaye/start-app.git
 
 2. **Navigate to the Project Directory:**
 bashcd startup-website
 
 3. **Start the developer server:**
-npm start
+npm run dev
 ## UsageThe Startup Website is responsive and works seamlessly on all devices:
 - **Mobile View:** Designed for smaller screens .- **Desktop View:** Features a layout that utilizes larger screen
 ## Screenshots
- feature-2=======
- dev![image](https://github.com/user-attachments/assets/9022a0c8-c636-47d8-9342-5da6327f7f36)![image](https://github.com/user-attachments/assets/8dfc14c6-cb23-4a2a-8f01-5e38f3e3c190)
 
 
 ## LicenseThis project is licensed under the MIT License. See the LICENSE file for more details.
 ## Author(s)If you have any questions or feedback, feel free to contact:
-**Name:** Fatima Abubakar 
-**Email:** zahrammcy@gmail.com 
-**GitHub:** Startup Website Repositoryfeature-2  https://react-app-57ct.onrender.com**website:** https://react-app-57ct.onrender.com/======= feature1 https://react-app-57ct.onrender.com**website:** dev
+**Name:** Maryam Abdu Saye
+**Email:** marynsaye@gmail.com 
+**GitHub:** https://github.com/maryamsaye/start-app.git
+**watch my loom video:** https://www.loom.com/share/a267ad47ca3147db93f04318623fbbda
 
 
 
-**website:** https://react-app-57ct.onrender.com
 
-**watch my loom video:** https://www.loom.com/share/c5149b04d98b4d279d29cd753d2976c0
-
-
-
-Thank you for checking out the Startup Website!
