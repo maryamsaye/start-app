@@ -45,16 +45,15 @@ const Header = () => {
         />
       </motion.div>        
         <div className='wel-container'>
-             <h2>Welcome</h2>
-             <h1>Lorem ipsum dolor sit amet consectetur</h1>
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab dolor aperiam nobis cum set cos error ipsum,volimptate culpan nesciunt delectus iste?</p>
-             <button className="explore-button">Explore</button>
+            <h2>Welcome</h2>
+            <h1>Lorem ipsum dolor sit amet consectetur</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab dolor aperiam nobis cum set cos error ipsum,volimptate culpan nesciunt delectus iste?</p>
+            <button className="explore-button">Explore</button>
 
           </div>
-       
-      </div>
       
-     </header>
+      </div>
+    </header>
   );
 };
 export default Header;

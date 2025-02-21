@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Our = () => { 
     return (
         <>
-       <div className='service-plan'>
+      <div className='service-plan'>
         <p> <span>Plans</span></p>
         <h1>Our service</h1>
         <p> Lorem ipsum , dolor sit amet consectetur adipisicingg elit</p>
@@ -37,7 +37,7 @@ const Our = () => {
           className="frame3"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-         
+        
         />
       </motion.div>
         </>

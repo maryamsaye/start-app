@@ -29,7 +29,7 @@ const Name = () => {
         </form>
       </div>
 
-     
+    
     </motion.div>
   );
 };
