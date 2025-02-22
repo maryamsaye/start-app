@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 main{
   margin: 0px;
   padding: 0px;
@@ -36,7 +39,6 @@ main{
 .nav-links.show {
   display: flex;
   flex-direction: column;
-  /* position: fixed; */
   background-color: #74C69D;
 
   margin-top: -10px;
@@ -54,8 +56,8 @@ main{
 .nav-links {
   list-style-type: none;
   display: none;
-   gap: 1.5rem; 
-   text-decoration: none;
+  gap: 1.5rem; 
+  text-decoration: none;
 
 }
 .nav-links a{
@@ -66,9 +68,7 @@ main{
 }
 .welcome-section{
   color: #FFF;
-  /* padding-left: 10px;
-  transform: translateY(70%);
-margin-bottom: 20px; */
+
 }
 
 .explore-button{
@@ -392,7 +392,7 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+    background-color: #555;
     transform: scale(1.1); 
   }
   
